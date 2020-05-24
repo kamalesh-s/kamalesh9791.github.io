@@ -1,0 +1,63 @@
+.
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: "SF pro display",sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+
+}
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100;
+    height: 4.4rem;
+    background-color: rgba(0, 0, 0, .8);
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 .1rem;
+}
+
+.nav-list.photo{
+    display: none;
+}
+
+.nav.link{
+    font-size: 1.4rem;
+    color: grey;
+    padding: 0.1rem;
+    transition: opacity.5s;
+}
+
+.nav-list:hover{
+    opacity: .7;
+}
+
+.nav-link-apple{
+    width: 1.6rem;
+    height:4.4rem;
+    background-image:url("1.jpg") center no-repeat;
+}
+
